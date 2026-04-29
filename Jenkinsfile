@@ -6,14 +6,14 @@ maven 'Maven3'
 stages {
 stage('Build') {
 steps {
-dir('demo'){
+dir('cicd-demo'){
 bat 'mvn clean install'
 }
 }
 }
 stage('Test') {
 steps {
-dir('demo'){
+dir('cicd-demo'){
 bat 'mvn test'
 }
 }
