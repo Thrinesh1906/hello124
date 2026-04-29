@@ -6,7 +6,7 @@ maven 'Maven3'
 stages {
 stage('CHECKOUT') {
 steps {
-git 'your_github_repo_link'
+git 'https://github.com/Thrinesh1906/hello124.git'
 }
 }
 stage('Build') {
