@@ -11,12 +11,5 @@ bat 'mvn clean install'
 }
 }
 }
-stage('Test') {
-steps {
-dir('cicd-demo'){
-bat 'mvn test'
-}
-}
-}
 }
 }
